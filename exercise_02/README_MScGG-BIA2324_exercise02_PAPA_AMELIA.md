@@ -267,7 +267,9 @@ popd
 
 export PATH=$WDR/bin/sratoolkit.3.0.0-ubuntu64/bin:$PATH
 # NOTE: you can add the above setting to the projectvars.sh file
-
+```
+All necessary software will be installed through the environment.yml file
+```{.sh}
 # seqtk - sampling, trimming, fastq2fasta, subsequence, reverse complement
 brew install seqtk
 
@@ -299,8 +301,7 @@ brew install bwa bowtie2
 # soapdenovo2 - short-read assembly method to build de novo draft assembly
 # The github repository for soapdenovo said to install from brew, but it didn't work
 # for me. 
-conda create -n MScGG-BIA2324_exercises
-conda activate MScGG-BIA2324_exercises
+
 conda install -c bioconda soapdenovo2
 soapdenovo-63mer # checks installation
 

@@ -34,7 +34,7 @@ export LC_ALL="en_US.UTF-8";
 
 #
 # pandoc's vars
-NM="SURNAME_NAME";                    #-> IMPORTANT: SET YOUR SURNAME and NAME ON THIS VAR,
+NM="PAPA_AMELIA";                    #-> IMPORTANT: SET YOUR SURNAME and NAME ON THIS VAR,
 RB="README_MScGG-BIA2324_exercise02"; #->            MUST FIX ON MARKDOWN README FILE
                                       #->            FROM TARBALL (AND INSIDE TOO)
 RD="${RB}_${NM}";
@@ -67,3 +67,7 @@ function runpandoc () {
 alias dir='/bin/ls -alFhrt --color=auto'
 
 export DT=$WDR/data;
+
+export REFDIR="S288C_reference_genome_R64-4-1_20230830"
+export REFGEN="S288C_reference_sequence_R64-4-1_20230830"
+
