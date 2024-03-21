@@ -27,9 +27,8 @@ title-meta: MScGG-BIA Exercise 02
 #
 # title is the big title for the cover page, fully LaTeX formated to fit into a shortstack command...
 title: |
-  \textsc{MScGG-BIA}
-  \vskip 1.25ex \textsc{Practicals}
-  \vskip 1.25ex \textsc{Report}
+  \textsc{MScGG-Advanced Bioinformatics}
+  \textsc{Practical Report}
 #subtitle:
 #
 # runtitle is the running header or footer, used i.e. by fancyheadings...
@@ -1236,12 +1235,12 @@ done
 \begin{center}
  \begin{tabular}{cc}
   \bf chrI & \bf chrM \\
-  \includegraphics[width=0.45\linewidth, angle=-90]{{blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff}.png} &
-  \includegraphics[width=0.45\linewidth, angle=-90]{{blast/chrM-x-SRR6130428/chrM-x-SRR6130428_megablast.dnadiff}.png} \\
+  \includegraphics[width=0.25\linewidth, angle=-90]{{blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff}.png} &
+  \includegraphics[width=0.25\linewidth, angle=-90]{{blast/chrM-x-SRR6130428/chrM-x-SRR6130428_megablast.dnadiff}.png} \\
   %% trim={<left> <lower> <right> <upper>}
-  \includegraphics[width=0.45\linewidth, trim={0 0 0 21cm}, clip, angle=-90]%
+  \includegraphics[width=0.25\linewidth, trim={0 0 0 21cm}, clip, angle=-90]%
                   {{blast/chrI-x-SRR6130428/chrI-x-SRR6130428_megablast.dnadiff.covg}.png} &
-  \includegraphics[width=0.45\linewidth, trim={0 0 0 21cm}, clip, angle=-90]%
+  \includegraphics[width=0.25\linewidth, trim={0 0 0 21cm}, clip, angle=-90]%
                   {{blast/chrM-x-SRR6130428/chrM-x-SRR6130428_megablast.dnadiff.covg}.png} \\
  \end{tabular}
  \parbox{0.75\linewidth}{%
@@ -1251,6 +1250,7 @@ done
  }%parbox
 \end{center}
 \end{figure}
+
 ```
 
 Discuss later on which of the two chromosome assemblies do you think
@@ -1345,7 +1345,6 @@ folder of your `busco` installation:
 ```{.sh}
 cd ./busco/$SQSET/
 python3 $BIN/busco/scripts/generate_plot.py \
-    -wd /Users/test/Desktop/UB/Advanced_Bioinformatics/exercise_02/busco/SRR6130428
 ```
 
 **Embed here the corresponding figure**; if you have ran more than one
@@ -1353,9 +1352,12 @@ assembly, you can combine the `busco` results to compare completeness
 among them.
 
 ```{=latex}
-% you can also use an \input macro to load the figure from a tex file.
-%
-%%% YOUR FIGURE HERE %%%
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{busco/SRR6130428/busco_figure.png} 
+  \caption{BUSCO Assessment Results}
+  \label{fig:example}
+\end{figure}
 ```
 
 
