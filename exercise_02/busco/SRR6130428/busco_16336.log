@@ -1,0 +1,9 @@
+2024-02-29 13:36:10 INFO:__main__	****************** Start plot generation at 02/29/2024 13:36:10 ******************
+2024-02-29 13:36:10 INFO:__main__	Load data ...
+2024-02-29 13:36:10 INFO:__main__	Loaded /Users/test/Desktop/UB/Advanced_Bioinformatics/exercise_02/busco/SRR6130428/short_summary.specific.saccharomycetes_odb10.SRR6130428_k63_contigs.txt successfully
+2024-02-29 13:36:10 INFO:__main__	Generate the R code ...
+2024-02-29 13:36:10 INFO:__main__	Run the R code ...
+2024-02-29 13:36:14 WARNING:__main__	Impossible to run R. The package ggplot2 does not seem to be installed. Please check your R installation. See also the --no_r option to avoid this message
+2024-02-29 13:36:14 INFO:__main__	Plot generation done with WARNING(s). Total running time: 4.1139020919799805 seconds
+2024-02-29 13:36:14 INFO:__main__	Results written in /Users/test/Desktop/UB/Advanced_Bioinformatics/exercise_02/busco/SRR6130428/
+

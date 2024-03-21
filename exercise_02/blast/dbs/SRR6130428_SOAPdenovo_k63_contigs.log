@@ -1,0 +1,11 @@
+
+
+Building a new DB, current time: 03/21/2024 14:44:26
+New DB name:   /Users/test/workspace/UB-bioinformatics/exercise_02/blast/dbs/SRR6130428_SOAPdenovo_k63_contigs
+New DB title:  SRR6130428_SOAPdenovo_k63_contigs
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /Users/test/workspace/UB-bioinformatics/exercise_02/blast/dbs/SRR6130428_SOAPdenovo_k63_contigs
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 4870 sequences in 0.237739 seconds.

@@ -1,0 +1,4 @@
+2024-02-29 13:34:03 INFO:__main__	****************** Start plot generation at 02/29/2024 13:34:03 ******************
+2024-02-29 13:34:03 WARNING:__main__	Impossible to read ./busco/SRR6130428/
+2024-02-29 13:34:03 ERROR:__main__	Plot generation failed !
+2024-02-29 13:34:03 INFO:__main__	Check the logs, read the user guide, and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
