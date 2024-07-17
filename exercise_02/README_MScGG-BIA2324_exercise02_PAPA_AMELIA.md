@@ -80,19 +80,6 @@ further-defs:
 ### End-Of-YAML-Block ###
 ---
 
-```{=comment}
-We do not need the comment LaTeX environment to hide a block,
-with pandoc >2.x one can define "comment" blocks, which are even
-escaped and not passed to LaTeX and pandoc (achieving the same hidden effect).
-\begin{comment}
-\begin{comment} 
-The \texttt{comment} \LaTeX\ environment allow us to
-include any piece of text, code, etc, but it wil not be included into
-the final PDF report when compiling the \texttt{MarkDown} file. You
-can open/close one of such environments at any time if you need them.
-\end{comment}
-```
-
 
 # Introduction
 
